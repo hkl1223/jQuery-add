@@ -71,7 +71,7 @@ a {
     transform: translate(-50%,-50%);
 }
 .prod.hover .cover{
-    opacity: 1;
+    display: none
 }
 .prod-ct{
     margin-left: -20px;
