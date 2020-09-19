@@ -62,7 +62,7 @@ a {
     right: 0;
     background: rgb(0,0,0, 0.3);
     transition: all 0.3s;
-    opacity:0;
+    display:none;
 }
 .action-delete{
     position: absolute;
@@ -71,7 +71,7 @@ a {
     transform: translate(-50%,-50%);
 }
 .prod.hover .cover{
-    display: none
+    display: block;
 }
 .prod-ct{
     margin-left: -20px;
